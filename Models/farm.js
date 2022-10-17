@@ -1,11 +1,4 @@
-const express = require('express');
 const mongoose = require('mongoose');
-const ExpressError = require('../utils/ExpressError');
-const catchAsync = require('../utils/catchAsync');
-
-
-const app = express();
-
 
 main()
     .then(() => {console.log('MONGOOSE CONECT!');})
